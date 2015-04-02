@@ -1,0 +1,31 @@
+# Yum repo syntax highlighting
+#
+# Author: Andy Shevchenko <andy.shevchenko@gmail.com>
+
+context default
+    keyword whole include: brightred
+    keyword whole name: brightgreen
+    keyword whole yum: yellow
+    keyword whole shell: yellow
+    keyword whole service: yellow
+    keyword whole lineinfile: yellow
+    keyword whole selinux: yellow
+    keyword whole template: yellow
+    keyword whole file: yellow
+    keyword whole local_action: yellow
+    keyword whole ignore_errors: red
+    keyword "*" green
+    keyword '*' green
+
+#    keyword tags= brightcyan
+    keyword  \\"   brightgreen
+
+context {{ }} white
+context exclusive -\sname: \n white
+context exclusive tags= \s brightmagenta
+
+context # \n brown
+#    spellcheck
+
+#context [ ] brightcyan
+#context exclusive = \n    green
