@@ -1,0 +1,3 @@
+Add next string to ~/.bashrc :
+
+PS1='\[\e[1;33m\]\h\[\e[m\]:\[\e[0;96m\]\w\[\e[m\]\[\e[0;32m\]> '
