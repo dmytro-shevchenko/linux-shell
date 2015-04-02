@@ -13,6 +13,10 @@ context default
     keyword whole template: yellow
     keyword whole file: yellow
     keyword whole local_action: yellow
+    keyword whole hosts: yellow
+    keyword whole vars_files: yellow
+    keyword whole roles: yellow
+    keyword whole tasks: yellow
     keyword whole ignore_errors: red
     keyword "*" green
     keyword '*' green
