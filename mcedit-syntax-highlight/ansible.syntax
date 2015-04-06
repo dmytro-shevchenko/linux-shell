@@ -22,6 +22,8 @@ context default
     keyword whole hostname: yellow
     keyword whole apt_repository: yellow
     keyword whole replace: yellow
+    keyword whole debug: yellow
+    keyword whole register: gray
     keyword whole ignore_errors: red
     keyword "*" green
     keyword '*' green
@@ -34,6 +36,9 @@ context exclusive -\sname: \n white
 context exclusive tags= \s brightmagenta
 context exclusive tags:\s[ ] brightmagenta
 context exclusive tags: \n brightmagenta
+context {{ }} cyan
+#brightblue
+#brightcyan
 
 
 context # \n brown
