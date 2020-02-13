@@ -1,0 +1,14 @@
+filetype plugin indent on
+syntax on
+
+" Highlight current line
+set cursorline
+hi cursorline cterm=none term=none
+autocmd WinEnter * setlocal cursorline
+autocmd WinLeave * setlocal nocursorline
+highlight CursorLine guibg=#303000 ctermbg=238
+
+" Folding
+setlocal foldmethod=syntax
+set foldlevelstart=99
+
