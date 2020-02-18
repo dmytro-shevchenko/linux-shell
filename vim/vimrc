@@ -1,5 +1,12 @@
-filetype plugin indent on
 syntax on
+set number
+
+" Tabs and ident
+filetype plugin indent on
+set smartindent
+set shiftwidth=4
+set softtabstop=4
+set expandtab
 
 " Highlight current line
 set cursorline
