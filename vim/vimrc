@@ -1,3 +1,11 @@
+" Plugings:
+" sudo apt install vim-python-jedi
+" vim-addons install python-jedi
+let g:jedi#use_tabs_not_buffers = 1
+let g:jedi#popup_on_dot = 0
+let g:jedi#show_call_signatures = "1"
+
+" Interface
 syntax on
 set number
 
@@ -18,4 +26,5 @@ highlight CursorLine guibg=#303000 ctermbg=238
 " Folding
 setlocal foldmethod=syntax
 set foldlevelstart=99
+
 
